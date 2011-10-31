@@ -80,14 +80,14 @@ describe "Headliner" do
 
     it "should use all custom options if available" do
       save_basic_title
-      @view.title(:site => "apple", 
-                  :prefix => " ", 
-                  :suffix => " ", 
+      @view.title(:site => "apple",
+                  :prefix => " ",
+                  :suffix => " ",
                   :separator => "-",
                   :lowercase => true,
                   :reverse => true).should eql("<title>iphone - apple</title>")
     end
- 
+
   end
 
   def save_basic_title(title='iPhone')

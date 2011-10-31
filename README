@@ -92,8 +92,8 @@ What if your view headline is different from your page title?
 How does it work?
 =================
 
-Ruby on Rails renders actions *before* inserting them into layouts. So, if 
-you set a variable in your view, it will be accessible in your layout. But, 
+Ruby on Rails renders actions *before* inserting them into layouts. So, if
+you set a variable in your view, it will be accessible in your layout. But,
 at first glance, it looks like you're using a variable (in the head)
 before it's been assigned a value (in the body). Cool, huh?
 
